@@ -1,3 +1,5 @@
 {
-  "name": "Mike Bettencourt"
+  "name": "Mike Bettencourt",
+  "color": "red",
+  "age": 27
 }
