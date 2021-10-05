@@ -1,0 +1,18 @@
+.go-home-button {
+  display: none;
+}
+
+@media only screen and (max-width: 900px) {
+  .go-home-button {
+    display: block;
+    position: absolute;
+    top: -45px;
+    right: 20px;
+    z-index: 2;
+  
+    font-size: 40px;
+    border: none;
+    background: none;
+    padding: 0;
+  }
+}
