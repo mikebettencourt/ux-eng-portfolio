@@ -44,7 +44,6 @@ function MobileMenu() {
                         <li className="secondary-nav-header">Case 1</li>
                         <li className="secondary-nav-header">Case 2</li>
                         <li className="secondary-nav-header">Case 3</li>
-                        <li className="primary-nav-header" onClick={() => navClick('/photo')}>Photo</li>
                         <li className="primary-nav-header" onClick={() => navClick('/about')}>About</li>
                         <li className="secondary-nav-header" onClick={() => navClick('/')}>
                             <button

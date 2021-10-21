@@ -10,15 +10,17 @@
   .name {
       font-family: neue-haas-grotesk-display, sans-serif;
       font-weight: 500;
-      font-size: 36px;
+      font-size: 24px;
       font-style: normal;
       margin: 0 0 40px;
-      //max-width: 300px;
+      max-width: 200px;
       letter-spacing: 3px;
+      cursor: pointer;
   }
 
   .title, .location {
       margin: 0 0 10px;
+      max-width: 200px;
       letter-spacing: 3px;
   }
 }

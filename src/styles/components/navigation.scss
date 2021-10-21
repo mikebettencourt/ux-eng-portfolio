@@ -1,0 +1,29 @@
+
+.nav-container {
+  margin-top: 50px;
+
+  .nav-items {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .primary-nav-header {
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    font-style: normal;
+    letter-spacing: 3px;
+    margin: 10px 0;
+  }
+
+  .secondary-nav-header {
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .nav-container {
+    display: none;
+  }
+}

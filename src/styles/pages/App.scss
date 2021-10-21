@@ -1,10 +1,27 @@
 .app {
-  padding: 20px;
+  padding: 50px 100px;
   display: flex;
+}
+
+.header {
+  max-width: 500px;
+}
+
+.content {
+  padding: 0 100px;
 }
 
 @media only screen and (max-width: 900px) {
   .app {
     flex-direction: column;
+    padding: 25px;
+  }
+
+  .hedaer {
+    width: 100%;
+  }
+
+  .content {
+    padding: 0;
   }
 }
