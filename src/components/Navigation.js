@@ -14,10 +14,14 @@ function Navigation() {
             <li className="secondary-nav-header">Case 1</li>
             <li className="secondary-nav-header">Case 2</li>
             <li className="secondary-nav-header">Case 3</li>
-            <li className="primary-nav-header" 
+            <li className="primary-nav-header">Photo</li>
+            <li className="secondary-nav-header">West Texas</li>
+            <li className="secondary-nav-header">Hatteras, NC</li>
+            <li className="primary-nav-header">About</li>
+            <li className="secondary-nav-header"
                 onClick={() => navClick('/about')}
             >
-              About
+              Who Am I?
             </li>
         </ul>
     </section>
