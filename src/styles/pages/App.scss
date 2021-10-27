@@ -1,27 +1,35 @@
 .app {
   padding: 50px 100px;
-  display: flex;
+  display: grid;
+  grid-template-areas: "side main main main";
+
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.header {
-  max-width: 500px;
+.side-content {
+  grid-area: side;
 }
 
-.content {
-  padding: 0 100px;
+.main-content {
+  padding: 0 25px;
+  grid-area: main;
 }
 
 @media only screen and (max-width: 900px) {
   .app {
-    flex-direction: column;
     padding: 25px;
+    grid-template-areas:
+      "side"
+      "main"
+    ;
   }
 
-  .hedaer {
+  .side-content {
     width: 100%;
   }
 
-  .content {
+  .main-content {
     padding: 0;
   }
 }
