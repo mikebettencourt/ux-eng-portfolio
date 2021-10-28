@@ -11,16 +11,17 @@ function Navigation() {
     <section className="nav-container">
         <ul className="nav-items">
             <li className="primary-nav-header">Work</li>
+            <li className="secondary-nav-header">Coming soon</li>
+            <li className="primary-nav-header">Personal</li>
             <li className="secondary-nav-header" 
                 onClick={() => navClick('/photography')}
             >
               Photography
             </li>
-            <li className="primary-nav-header">About</li>
             <li className="secondary-nav-header"
                 onClick={() => navClick('/about')}
             >
-              Who Am I?
+              About me
             </li>
         </ul>
     </section>

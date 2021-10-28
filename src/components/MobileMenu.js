@@ -41,19 +41,11 @@ function MobileMenu() {
                 <section className="mobile-nav-container">
                     <ul className="mobile-nav-items">
                         <li className="primary-nav-header">Work</li>
+                        <li className="secondary-nav-header">Coming soon</li>
+                        <li className="primary-nav-header">Personal</li>
                         <li className="secondary-nav-header" onClick={() => navClick('/photography')}>Photography</li>
-                        <li className="primary-nav-header" onClick={() => navClick('/about')}>About</li>
-                        <li className="secondary-nav-header" onClick={() => navClick('/')}>
-                            <button
-                                className="home-btn"
-                                tabIndex={0}
-                                role="button"
-                                onClick={() => navClick('/')}
-                                onKeyPress={() => navClick('/')}
-                            >
-                                &larr;
-                            </button>
-                        </li>
+                        <li className="secondary-nav-header" onClick={() => navClick('/about')}>About me</li>
+        
                     </ul>
                 </section>
             </div>
