@@ -5,6 +5,8 @@ import Name from './Name';
 import Navigation from '../components/Navigation';
 import MobileMenu from '../components/MobileMenu';
 import Photography from './Photography';
+import ExamTracking from './work/ExamTracking';
+import Perspective from "./work/Perspective";
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
             <Route exact path="/" component={LandingImg} />
             <Route path="/about" component={About} />
             <Route path="/photography" component={Photography} />
+            <Route path="/work/exam-tracking" component={ExamTracking} />
+            <Route path="/work/palhth" component={Perspective} />
           </Switch>
         </section>
       </main>

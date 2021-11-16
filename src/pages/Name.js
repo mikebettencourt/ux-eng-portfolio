@@ -9,13 +9,13 @@ function NameTitleLocation() {
 
   return (
     <section className="name-title-container">
+      <h1 className="name"
+          role="button"
+          onClick={headerClick}
+      >
+          Mike Bettencourt
+      </h1>
       <p className="pronouns">he/him/his</p>
-        <h1 className="name"
-            role="button"
-            onClick={headerClick}
-        >
-            Michael Bettencourt
-        </h1>
       <p className="title">UX Engineer</p>
       <p className="location">Boston, MA</p>
     </section>
