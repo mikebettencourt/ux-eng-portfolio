@@ -10,7 +10,9 @@ function Navigation() {
   return (
     <section className="nav-container">
         <ul className="nav-items">
-            <li className="primary-nav-header">Work</li>
+            <li className="primary-nav-header">
+              <h1>Work</h1>
+            </li>
             <li className="secondary-nav-header"
                 onClick={() => navClick('/work/exam-tracking')}
             >
@@ -21,7 +23,9 @@ function Navigation() {
             >
               Perspective, A Lovely Hand To Hold
             </li>
-            <li className="primary-nav-header">Personal</li>
+            <li className="primary-nav-header">
+              <h1>Personal</h1>
+            </li>
             <li className="secondary-nav-header" 
                 onClick={() => navClick('/photography')}
             >
