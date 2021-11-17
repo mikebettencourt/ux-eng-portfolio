@@ -7,14 +7,14 @@ function ExamTracking() {
         <section className="exam-tracking-container">
           <h1 className="content-header">Perspective, A Lovely Hand To Hold</h1>
           <section className="content-section">
-            <p className="content-label">Role/Skills</p>
+            <h5 className="content-label">Role/Skills</h5>
             <ul className="content-copy">
               <li>Front-end Development</li>
               <li>HTML and CSS</li>
             </ul>
           </section>
           <section className="content-section">
-            <p className="content-label">Overview</p>
+            <h5 className="content-label">Overview</h5>
             <p className="content-copy">
               My good friends in, Perspective, A Lovely Hand To Hold, reached out
               to me to help create a landing page for their band.
