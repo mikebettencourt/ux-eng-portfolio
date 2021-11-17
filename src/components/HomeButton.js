@@ -15,7 +15,7 @@ function HomeButton() {
       onClick={goHome}
       onKeyPress={goHome}
     >
-      &larr;
+      Back Home
     </button>
   )
 }
