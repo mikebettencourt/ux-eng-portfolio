@@ -1,0 +1,19 @@
+
+.footer-container {
+  position: absolute; 
+  bottom: 0;
+
+  a {
+    color: black;
+  }
+
+  .fab {
+    margin-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .footer-container {
+    position: relative;
+  }
+}

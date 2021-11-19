@@ -40,9 +40,18 @@ function MobileMenu() {
                 </button>
                 <section className="mobile-nav-container">
                     <ul className="mobile-nav-items">
-                        <li className="primary-nav-header">Work</li>
-                        <li className="secondary-nav-header">Coming soon</li>
-                        <li className="primary-nav-header">Personal</li>
+                        <li className="primary-nav-header"><h1>Work</h1></li>
+                        <li className="secondary-nav-header"
+                            onClick={() => navClick('/work/exam-tracking')}
+                        >
+                            Exam Tracking
+                        </li>
+                        <li className="secondary-nav-header"
+                            onClick={() => navClick('/work/palhth')}
+                        >
+                            Perspective, A Lovely Hand To Hold
+                        </li>
+                        <li className="primary-nav-header"><h1>Personal</h1></li>
                         <li className="secondary-nav-header" onClick={() => navClick('/photography')}>Photography</li>
                         <li className="secondary-nav-header" onClick={() => navClick('/about')}>About me</li>
         

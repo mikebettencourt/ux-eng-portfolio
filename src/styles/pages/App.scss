@@ -1,16 +1,26 @@
 .app {
   padding: 50px 100px;
+  margin: 0 auto;
+  
   display: grid;
-  grid-template-areas: "side main main main";
+  grid-template-areas: 
+    "side main main main"
+  ;
 
   max-width: 1200px;
-  margin: 0 auto;
+  min-height: 100vh;
 }
 
 .side-content {
   grid-area: side;
   margin-right: 20px;
   width: 250px;
+
+   &-container {
+     height: 85vh;
+     position: fixed;
+     width: 250px;
+   }
 }
 
 .main-content {
@@ -27,8 +37,9 @@
     ;
   }
 
-  .side-content {
-    width: 100%;
+  .side-content-container {
+    position: relative;
+    height: auto;
   }
 
   .main-content {

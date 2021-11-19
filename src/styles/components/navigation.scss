@@ -19,8 +19,10 @@
   }
 
   .secondary-nav-header:hover {
-    color: red;
-    text-decoration: underline;
+    color: #3c3830;
+    width: fit-content;
+    text-decoration: underline dotted 1px;
+    background-color: #FDFD96;
   }
 }
 

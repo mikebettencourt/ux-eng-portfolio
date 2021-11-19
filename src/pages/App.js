@@ -6,16 +6,20 @@ import Navigation from '../components/Navigation';
 import MobileMenu from '../components/MobileMenu';
 import Photography from './Photography';
 import ExamTracking from './work/ExamTracking';
-import Perspective from "./work/Perspective";
+import Perspective from './work/Perspective';
+import Footer from '../components/Footer';
 
 function App() {
   return (
     <BrowserRouter>
       <main className="app">
         <section className="side-content">
-          <MobileMenu />
-          <Name />
-          <Navigation />
+          <div className="side-content-container">
+            <MobileMenu />
+            <Name />
+            <Navigation />
+            <Footer />
+          </div>
         </section>
         <section className="main-content">
           <Switch>
