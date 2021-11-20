@@ -13,6 +13,17 @@ import bwSamBball from '../assets/photos/bw_sam_bball.jpg';
 import bwThanksgiving from '../assets/photos/bw_thanksgiving.jpg';
 import bwTruroDune from '../assets/photos/bw_truro_dune.jpg';
 
+// color 
+import alpineCowboys from '../assets/photos/alpine_cowboys.jpg';
+import bounceHouse from '../assets/photos/bounce_house.jpg';
+import fenwayHomerun from '../assets/photos/fenway_homerun.jpg';
+import gloucester from '../assets/photos/gloucester_lighthouse_rocks.JPG';
+import harvardStadium from '../assets/photos/harvard-stadium.jpg';
+import liaArubaPool from '../assets/photos/lia_aruba_pool.jpg';
+import liaTri from '../assets/photos/lia_tri.jpg';
+import oldOrchardDunes from '../assets/photos/old_orchard_sunrise_dunes.JPG';
+import portlandLighthouse from '../assets/photos/portland_lighthouse.jpg';
+import txSunrise from '../assets/photos/tx_sunrise.JPG';
 
 
 const photos = [
@@ -21,86 +32,179 @@ const photos = [
     altText: "",
     subHeader: ".",
     src: bwThanksgiving,
-    orientation: "landscape"
+    orientation: "landscape",
+    color: "bw all",
   },
   {
     id: 2,
     altText: "",
     subHeader: ".",
     src: bwBackyardShow,
-    orientation: "landscape"
+    orientation: "landscape",
+    color: "bw all",
   },
   {
     id: 3,
     altText: "",
     subHeader: ".",
     src: bwBeachDune,
-    orientation: "portrait"
+    orientation: "portrait",
+    color: "bw all",
   },
   {
     id: 4,
     altText: "",
     subHeader: ".",
     src: bwElPaso,
-    orientation: "portrait"
+    orientation: "portrait",
+    color: "bw all",
   },
   {
     id: 5,
     altText: "",
     subHeader: ".",
     src: bwHatterasWaves,
-    orientation: "landscape"
+    orientation: "landscape",
+    color: "bw all",
   },
   {
     id: 6,
     altText: "",
     subHeader: ".",
     src: bwLiaMirror,
-    orientation: "portrait"
+    orientation: "portrait",
+    color: "bw all",
   },
   {
     id: 7,
     altText: "",
     subHeader: ".",
     src: bwPlaneRockies,
-    orientation: "portrait"
+    orientation: "portrait",
+    color: "bw all",
   },
   {
     id: 8,
     altText: "",
     subHeader: ".",
     src: bwSamBball,
-    orientation: "landscape"
+    orientation: "landscape",
+    color: "bw all",
   },
   {
     id: 9,
     altText: "",
     subHeader: ".",
     src: bwFlatTire,
-    orientation: "portrait"
+    orientation: "portrait",
+    color: "bw all",
   },
   {
     id: 10,
     altText: "",
     subHeader: ".",
     src: bwLiaVT,
-    orientation: "landscape"
+    orientation: "landscape",
+    color: "bw all",
   },
   {
     id: 11,
     altText: "",
     subHeader: ".",
     src: bwOceanPlane,
-    orientation: "portrait"
+    orientation: "portrait",
+    color: "bw all",
   },
   {
     id: 12,
     altText: "",
     subHeader: ".",
     src: bwTruroDune,
-    orientation: "landscape"
+    orientation: "landscape",
+    color: "bw all",
   },
-  
+  {
+    id: 13,
+    altText: "",
+    subHeader: ".",
+    src: alpineCowboys,
+    orientation: "landscape",
+    color: "color all",
+  },
+  {
+    id: 14,
+    altText: "",
+    subHeader: ".",
+    src: bounceHouse,
+    orientation: "landscape",
+    color: "color all",
+  },
+  {
+    id: 15,
+    altText: "",
+    subHeader: ".",
+    src: fenwayHomerun,
+    orientation: "landscape",
+    color: "color all",
+  },
+  {
+    id: 16,
+    altText: "",
+    subHeader: ".",
+    src: gloucester,
+    orientation: "portrait",
+    color: "color all",
+  },
+  {
+    id: 17,
+    altText: "",
+    subHeader: "",
+    src: harvardStadium,
+    orientation: "portrait",
+    color: "color all",
+  },
+  {
+    id: 18,
+    altText: "",
+    subHeader: "",
+    src: liaArubaPool,
+    orientation: "landscape",
+    color: "color all",
+  },
+  {
+    id: 19,
+    altText: "",
+    subHeader: "",
+    src: liaTri,
+    orientation: "landscape",
+    color: "color all",
+  },
+  {
+    id: 20,
+    altText: "",
+    subHeader: "",
+    src: oldOrchardDunes,
+    orientation: "landscape",
+    color: "color all",
+  },
+  {
+    id: 21,
+    altText: "",
+    subHeader: "",
+    src: portlandLighthouse,
+    orientation: "portrait",
+    color: "color all",
+  },
+  {
+    id: 22,
+    altText: "",
+    subHeader: "",
+    src: txSunrise,
+    orientation: "landscape",
+    color: "color all",
+  },
 ];
 
-export default photos;
+const photosToRender = photos.sort((a, b) => 0.5 - Math.random());
+
+export default photosToRender;

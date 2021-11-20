@@ -11,6 +11,8 @@ function NameTitleLocation() {
     <section className="name-title-container">
       <h1 className="name"
           role="button"
+          tabIndex={0}
+          onKeyPress={headerClick}
           onClick={headerClick}
       >
           Mike Bettencourt

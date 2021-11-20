@@ -10,32 +10,49 @@ function Navigation() {
   return (
     <section className="nav-container">
         <ul className="nav-items">
-            <li className="primary-nav-header">
-              <h1>Work</h1>
-            </li>
-            <li className="secondary-nav-header"
-                onClick={() => navClick('/work/exam-tracking')}
-            >
-              Exam Tracking
-            </li>
-            <li className="secondary-nav-header"
-                onClick={() => navClick('/work/palhth')}
-            >
-              Perspective, A Lovely Hand To Hold
-            </li>
-            <li className="primary-nav-header">
-              <h1>Personal</h1>
-            </li>
-            <li className="secondary-nav-header" 
-                onClick={() => navClick('/photography')}
-            >
-              Photography
-            </li>
-            <li className="secondary-nav-header"
-                onClick={() => navClick('/about')}
-            >
-              About me
-            </li>
+          <li className="secondary-nav-header about-me"
+              role="button"
+              tabIndex={0}
+              onClick={() => navClick('/about')}
+              onKeyPress={() => navClick('/about')}
+          >
+            About
+          </li>
+          <li className="secondary-nav-header"
+              role="button"
+              tabIndex={0}
+              onClick={() => navClick('/')}
+              onKeyPress={() => navClick('/')}
+          >
+            CV
+          </li>
+          <li className="primary-nav-header">
+            <h5>Work</h5>
+          </li>
+          <li className="secondary-nav-header"
+              role="button"
+              tabIndex={0}
+              onClick={() => navClick('/work/exam-tracking')}
+              onKeyPress={() => navClick('/work/exam-tracking')}
+          >
+            Exam Tracking
+          </li>
+          <li className="secondary-nav-header"
+              role="button"
+              tabIndex={0}
+              onClick={() => navClick('/work/palhth')}
+              onKeyPress={() => navClick('/work/palhth')}
+          >
+            Perspective, A Lovely Hand To Hold
+          </li>
+          <li className="secondary-nav-header" 
+              role="button"
+              tabIndex={0}
+              onClick={() => navClick('/photography')}
+              onKeyPress={() => navClick('/photography')}
+          >
+            Photography
+          </li>
         </ul>
     </section>
   )

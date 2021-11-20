@@ -9,7 +9,8 @@ function Footer() {
       <a href="https://www.linkedin.com/in/mikebettencourt/" target="_blank">
         <i class="fab fa-linkedin-in"></i>
       </a>
-      <a href="mailto:bettencourtm4@gmail.com">
+      <a href="mailto:bettencourtm4@gmail.com?subject=Pleasure to meet you, Mike!"
+      >
         <i class="far fa-envelope"></i>
       </a>
     </footer>
