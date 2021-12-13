@@ -21,9 +21,9 @@ import gloucester from '../assets/photos/gloucester.jpg';
 import harvardStadium from '../assets/photos/harvard-stadium.jpg';
 import liaArubaPool from '../assets/photos/lia_aruba_pool.jpg';
 import liaTri from '../assets/photos/lia_tri.jpg';
-import oldOrchardDunes from '../assets/photos/old_orchard_sunrise_dunes.jpg';
+import oldOrchardDunes from '../assets/photos/old_orchard.jpg';
 import portlandLighthouse from '../assets/photos/portland_lighthouse.jpg';
-import txSunrise from '../assets/photos/tx_sunrise.jpg';
+import txSunrise from '../assets/photos/tx.jpg';
 
 
 const photos = [
