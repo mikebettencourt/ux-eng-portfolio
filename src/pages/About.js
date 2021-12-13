@@ -1,5 +1,5 @@
 import HomeButton from "../components/HomeButton";
-import self from '../assets/photos/self_portrait.JPG';
+import self from '../assets/photos/self_portrait.jpg';
 
 function About() {
     return (

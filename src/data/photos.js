@@ -17,13 +17,13 @@ import bwTruroDune from '../assets/photos/bw_truro_dune.jpg';
 import alpineCowboys from '../assets/photos/alpine_cowboys.jpg';
 import bounceHouse from '../assets/photos/bounce_house.jpg';
 import fenwayHomerun from '../assets/photos/fenway_homerun.jpg';
-import gloucester from '../assets/photos/gloucester_lighthouse_rocks.JPG';
+import gloucester from '../assets/photos/gloucester_lighthouse_rocks.jpg';
 import harvardStadium from '../assets/photos/harvard-stadium.jpg';
 import liaArubaPool from '../assets/photos/lia_aruba_pool.jpg';
 import liaTri from '../assets/photos/lia_tri.jpg';
-import oldOrchardDunes from '../assets/photos/old_orchard_sunrise_dunes.JPG';
+import oldOrchardDunes from '../assets/photos/old_orchard_sunrise_dunes.jpg';
 import portlandLighthouse from '../assets/photos/portland_lighthouse.jpg';
-import txSunrise from '../assets/photos/tx_sunrise.JPG';
+import txSunrise from '../assets/photos/tx_sunrise.jpg';
 
 
 const photos = [
