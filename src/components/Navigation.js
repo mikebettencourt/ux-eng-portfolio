@@ -1,4 +1,5 @@
 import { useHistory } from 'react-router-dom';
+import resume from '../assets/docs/MB_resume.pdf';
 
 function Navigation() {
   const history = useHistory();
@@ -18,13 +19,8 @@ function Navigation() {
           >
             About
           </li>
-          <li className="secondary-nav-header"
-              role="button"
-              tabIndex={0}
-              onClick={() => navClick('/')}
-              onKeyPress={() => navClick('/')}
-          >
-            CV
+          <li className="secondary-nav-header">
+            <a href={resume} target="_blank" rel="noreferrer">Resume</a>
           </li>
           <li className="primary-nav-header">
             <h5>Work</h5>

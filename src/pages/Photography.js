@@ -15,7 +15,7 @@ function Photography() {
       </p>
     </section>
     <section className="action-container">
-      <h5>Filter photos by</h5>
+      <h5>Filter</h5>
       <button
         className={filter === 'all' ? 'filter-button active' : 'filter-button'}
         onClick={() => setFilter('all')}

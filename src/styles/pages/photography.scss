@@ -15,18 +15,27 @@
   }
 
   .action-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
     .filter-button {
       margin-right: 10px;
       padding: 5px 15px;
-      border: 1px black dotted;
+      border: 1px black solid;
       background-color: white;
       border-radius: 25px;
       cursor: pointer;
     }
 
     .active {
-      background-color: #FDFD96;
+      background-color: black;
+      color: white;
     } 
+  }
+
+  .action-container h5 {
+    margin-right: 10px;
   }
 
   .gallery-container {

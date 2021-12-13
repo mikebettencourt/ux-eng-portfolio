@@ -18,11 +18,16 @@
     cursor: pointer;
   }
 
+  .secondary-nav-header a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+  }
+
   .secondary-nav-header:hover {
     color: #3c3830;
     width: fit-content;
-    text-decoration: underline dotted 1px;
-    background-color: #FDFD96;
+    text-decoration: underline solid 1px;
   }
 
   .about-me {

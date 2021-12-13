@@ -21,6 +21,7 @@ function ExamTracking() {
             <br />
             <a href="https://mikebettencourt.github.io/palhth/"
                 target="_blank"
+                rel="noreferrer" 
             >
               Live Site
             </a>
