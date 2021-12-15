@@ -40,6 +40,16 @@ function MobileMenu() {
                 </button>
                 <section className="mobile-nav-container">
                     <ul className="mobile-nav-items">
+                        <li className="secondary-nav-header" 
+                            onClick={() => navClick('/about')}
+                        >
+                            About me
+                            </li>
+                        <li className="secondary-nav-header resume"
+                            onClick={() => window.open(`${process.env.PUBLIC_URL}/MB_resume.pdf`, '_blank')}
+                        >
+                            Resume
+                        </li>
                         <li className="primary-nav-header"><h1>Work</h1></li>
                         <li className="secondary-nav-header"
                             onClick={() => navClick('/work/exam-tracking')}
@@ -47,14 +57,11 @@ function MobileMenu() {
                             Exam Tracking
                         </li>
                         <li className="secondary-nav-header"
-                            onClick={() => navClick('/work/palhth')}
+                            onClick={() => navClick('/work/patrs-redesign')}
                         >
-                            Perspective, A Lovely Hand To Hold
+                            Performance and Talent Review - Redesign
                         </li>
-                        <li className="primary-nav-header"><h1>Personal</h1></li>
                         <li className="secondary-nav-header" onClick={() => navClick('/photography')}>Photography</li>
-                        <li className="secondary-nav-header" onClick={() => navClick('/about')}>About me</li>
-        
                     </ul>
                 </section>
             </div>

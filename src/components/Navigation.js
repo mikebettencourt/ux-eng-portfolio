@@ -20,7 +20,8 @@ function Navigation() {
           >
             About
           </li>
-          <li className="secondary-nav-header"role="button"
+          <li className="secondary-nav-header"
+              role="button"
               tabIndex={0}
               onClick={() => window.open(`${process.env.PUBLIC_URL}/MB_resume.pdf`, '_blank')}
               onKeyPress={() => window.open(`${process.env.PUBLIC_URL}/MB_resume.pdf`, '_blank')}
@@ -46,14 +47,6 @@ function Navigation() {
           >
             Performance and Talent Review - Redesign
           </li>
-          {/* <li className="secondary-nav-header"
-              role="button"
-              tabIndex={0}
-              onClick={() => navClick('/work/palhth')}
-              onKeyPress={() => navClick('/work/palhth')}
-          >
-            Perspective, A Lovely Hand To Hold
-          </li> */}
           <li className="secondary-nav-header" 
               role="button"
               tabIndex={0}

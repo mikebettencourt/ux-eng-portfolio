@@ -55,7 +55,7 @@
       
                   .secondary-nav-header {
                       letter-spacing: 1px;
-                      margin-bottom: 10px;
+                      padding-top: 1rem;
                   }
 
                   .home-btn {
@@ -64,6 +64,10 @@
                     border: none;
                     background: none;
                     padding: 0;
+                  }
+
+                  .resume {
+                      margin-bottom: 50px;
                   }
                 }
             }
