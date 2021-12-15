@@ -7,8 +7,6 @@ function Navigation() {
     history.push(`${destination}`);
   };
 
-  console.log('HELLLOO: ', process.env);
-
   return (
     <section className="nav-container">
         <ul className="nav-items">

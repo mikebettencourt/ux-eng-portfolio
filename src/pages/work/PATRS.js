@@ -1,4 +1,3 @@
-import HomeButton from "../../components/HomeButton";
 import patrsLanding from '../../assets/designs/PATRS_LANDING.png';
 import patrsObjectives from '../../assets/designs/PATRS_OBJECTIVES.png';
 import patrsObjectivesComments from '../../assets/designs/PATRS_OBJECTIVES_COMMENTS.png';
@@ -6,7 +5,6 @@ import patrsObjectivesComments from '../../assets/designs/PATRS_OBJECTIVES_COMME
 function PATRS() {
     return (
       <section className="patrs-container">
-        <HomeButton />
         <h1 className="content-header">Performance and Talent Review - Redesign</h1>
         <section className="content-section">
           <h5 className="content-label">Overview</h5>

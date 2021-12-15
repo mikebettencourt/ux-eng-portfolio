@@ -1,10 +1,8 @@
-import HomeButton from "../components/HomeButton";
 import self from '../assets/photos/self.jpg';
 
 function About() {
     return (
       <section className="about-container">
-        <HomeButton />
         <div className="about-container-content">
           <img src={self} alt="self portrait"/>
           <p className="headline">

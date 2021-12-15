@@ -58,16 +58,19 @@
                       padding-top: 1rem;
                   }
 
-                  .home-btn {
-                    font-size: 40px;
-                    margin-top: 60px;
-                    border: none;
-                    background: none;
-                    padding: 0;
-                  }
-
                   .resume {
                       margin-bottom: 50px;
+                  }
+
+                  .home {
+                    margin-top: 50px;
+
+                    i {
+                        font-size: 20px;
+                        padding-right: 10px;
+
+                        transform: translateY(2px);
+                    }
                   }
                 }
             }

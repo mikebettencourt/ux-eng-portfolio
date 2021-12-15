@@ -1,9 +1,7 @@
-import HomeButton from "../../components/HomeButton";
 
 function ExamTracking() {
     return (
       <section className="exam-tracking-container">
-        <HomeButton />
         <h1 className="content-header">Actuarial Exam Tracking</h1>
         <section className="content-section">
           <h5 className="content-label">Role</h5>
