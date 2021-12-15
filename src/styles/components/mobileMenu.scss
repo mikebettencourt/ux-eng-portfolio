@@ -37,7 +37,10 @@
             right: 0;
             left: 0;
             z-index: 3;
-            background-color: #FDFD96;
+            background: #f5f5f5;
+            background-image: radial-gradient(rgb(199, 199, 199) 1px, transparent 0);
+            background-size: 25px 25px;
+            background-position: -19px -19px;       
             padding: 25px;
   
             .mobile-nav-container {
