@@ -18,6 +18,15 @@
     flex: 0 0 200px;
   }
 
+  .content-copy-wrapper { 
+    display: block;
+
+    img {
+      max-width: 100%;
+      margin: 1rem -2rem 0;
+    }
+  }
+
   .content-copy {
     list-style-type: none;
     padding-left: 0;

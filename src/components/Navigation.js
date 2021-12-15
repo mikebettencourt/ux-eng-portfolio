@@ -7,6 +7,8 @@ function Navigation() {
     history.push(`${destination}`);
   };
 
+  console.log('HELLLOO: ', process.env);
+
   return (
     <section className="nav-container">
         <ul className="nav-items">
@@ -21,7 +23,7 @@ function Navigation() {
           <li className="secondary-nav-header"role="button"
               tabIndex={0}
               onClick={() => window.open(`${process.env.PUBLIC_URL}/MB_resume.pdf`, '_blank')}
-              onKeyPress={() => window.open()}
+              onKeyPress={() => window.open(`${process.env.PUBLIC_URL}/MB_resume.pdf`, '_blank')}
           >
             Resume
           </li>
@@ -39,11 +41,19 @@ function Navigation() {
           <li className="secondary-nav-header"
               role="button"
               tabIndex={0}
+              onClick={() => navClick('/work/patrs-redesign')}
+              onKeyPress={() => navClick('/work/patrs-redesign')}
+          >
+            Performance and Talent Review - Redesign
+          </li>
+          {/* <li className="secondary-nav-header"
+              role="button"
+              tabIndex={0}
               onClick={() => navClick('/work/palhth')}
               onKeyPress={() => navClick('/work/palhth')}
           >
             Perspective, A Lovely Hand To Hold
-          </li>
+          </li> */}
           <li className="secondary-nav-header" 
               role="button"
               tabIndex={0}

@@ -13,13 +13,16 @@ function About() {
           </p>
           <p className="copy">
             Hi, I’m Mike and you guessed it… I am a UX Engineer based in the Greater Boston area. 
-            Currently I work for Liberty Mutual, designing and building applications to support their global 
+            Currently, I work for Liberty Mutual, designing and building applications to support their global 
             employee base of 50,000 people. 
             <br />
             <br />
             A few years after working as a full stack software engineer, I 
             realized there was a gap between the development team and our users. After a few conversations with 
-            my manager, I took it upon myself to learn more about the general UX Design process. Since then, 
+            my manager, I took it upon myself to learn more about the general UX Design process. 
+            <br />
+            <br />
+            Since then, 
             I have been able to use that knowledge to facilitate a number of collaborative workshops between users, 
             subject matter experts, and business stakeholders to ensure our applications function seamlessly. 
             My full stack development skills also allow me to join the development team once our prototypes have been 
