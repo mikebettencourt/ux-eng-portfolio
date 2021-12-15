@@ -10,20 +10,22 @@ function PATRS() {
         <h1 className="content-header">Performance and Talent Review - Redesign</h1>
         <section className="content-section">
           <h5 className="content-label">Overview</h5>
-          <p className="content-copy">
-            The Performance and Talent Review System was first released in the fall of 2018. Our team consolidated Liberty Mutual’s 
-            performance review process that spanned over four disjointed applications and systems into one seamless experience. The 
-            team received an IT Excellence Award for these development efforts.
-            <br />
-            <br />
-            Since then, the application has matured greatly and includes a lot of complex business logic. While the experience remains 
-            intuitive, there are certainly areas in which I think the design could be revisited and improved upon. 
-            <br />
-            <br />
-            I took a few days during our team’s innovation sprint to think about a potential redesign for a few pages within the 
-            application. My first step was to reach out to our business stakeholder to get a better understanding of her future vision 
-            for performance at Liberty. 
-          </p>
+          <div className="content-copy-wrapper">
+            <p className="content-copy">
+                The Performance and Talent Review System was first released in the fall of 2018. Our team consolidated Liberty Mutual’s 
+                performance review process that spanned over four disjointed applications and systems into one seamless experience. The 
+                team received an IT Excellence Award for these development efforts.
+                <br />
+                <br />
+                Since then, the application has matured greatly and includes a lot of complex business logic. While the experience remains 
+                intuitive, there are certainly areas in which I think the design could be revisited and improved upon. 
+                <br />
+                <br />
+                I took a few days during our team’s innovation sprint to think about a potential redesign for a few pages within the 
+                application. My first step was to reach out to our business stakeholder to get a better understanding of her future vision 
+                for performance at Liberty. 
+            </p>
+          </div>
         </section>
         <div className="content-divider"></div>
         <section className="content-section">
