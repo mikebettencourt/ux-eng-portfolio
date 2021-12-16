@@ -17,7 +17,7 @@ function OpenAI() {
                     During an innovation sprint, I wanted to brush up on my responsive design skills. Like any
                     developer would, I went to YouTube and found a tutorial for the topic. This landing page is built
                     using React and CSS with the primary focus being CSS Flexbox. This tutorial was particulalry 
-                    intresting since I referencing a Figma file for the design, mimicking the Product Designer
+                    intresting since I was referencing a Figma file for the design, mimicking the Product Designer
                     and Developer relationship.
                     <br />
                     <br />
