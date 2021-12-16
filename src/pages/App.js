@@ -8,6 +8,7 @@ import Photography from './Photography';
 import ExamTracking from './work/ExamTracking';
 import Footer from '../components/Footer';
 import PATRS from './work/PATRS';
+import OpenAI from './work/OpenAI';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
             <Route path="/photography" component={Photography} />
             <Route path="/work/exam-tracking" component={ExamTracking} />
             <Route path="/work/patrs-redesign" component={PATRS} />
+            <Route path="/work/open-ai" component={OpenAI} />
           </Switch>
         </section>
       </main>

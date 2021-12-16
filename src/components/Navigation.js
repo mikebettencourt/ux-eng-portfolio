@@ -45,6 +45,14 @@ function Navigation() {
           >
             Performance and Talent Review - Redesign
           </li>
+          <li className="secondary-nav-header"
+              role="button"
+              tabIndex={0}
+              onClick={() => navClick('/work/open-ai')}
+              onKeyPress={() => navClick('/work/open-ai')}
+          >
+            OpenAI Landing Page
+          </li>
           <li className="secondary-nav-header" 
               role="button"
               tabIndex={0}

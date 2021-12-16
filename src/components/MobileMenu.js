@@ -61,6 +61,11 @@ function MobileMenu() {
                         >
                             Performance and Talent Review - Redesign
                         </li>
+                        <li className="secondary-nav-header"
+                            onClick={() => navClick('/work/open-ai')}
+                        >
+                            OpenAI Landing Page
+                        </li>
                         <li className="secondary-nav-header" onClick={() => navClick('/photography')}>Photography</li>
                         <li className="secondary-nav-header home" onClick={() => navClick('/')}><i class="fas fa-arrow-left"></i>Home</li>
                     </ul>
