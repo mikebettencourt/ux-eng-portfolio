@@ -34,6 +34,22 @@ function About() {
             Reach out if you’d like to learn more and start a conversation. Also, if you'd like to see how I built my portfolio,
             you can check out my <a href="https://github.com/mikebettencourt/ux-eng-portfolio" target="_blank" rel="noreferrer">GitHub</a>.
           </p>
+          <div>
+            <button 
+              className="contact-btn"
+              onClick={() => window.open("mailto:bettencourtm4@gmail.com?subject=Pleasure to meet you, Mike!")}
+              onKeyPress={() => window.open("mailto:bettencourtm4@gmail.com?subject=Pleasure to meet you, Mike!")}
+            >
+              Contact <i class="far fa-envelope"></i>
+              </button>
+            <button 
+              className="resume-btn"
+              onClick={() => window.open(`${process.env.PUBLIC_URL}/MB_resume.pdf`, '_blank')}
+              onKeyPress={() => window.open(`${process.env.PUBLIC_URL}/MB_resume.pdf`, '_blank')}
+            >
+              Resume
+            </button>
+          </div>
         </div>
       </section>
     );

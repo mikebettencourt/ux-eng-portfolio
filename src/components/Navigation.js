@@ -35,7 +35,7 @@ function Navigation() {
               onClick={() => navClick('/work/exam-tracking')}
               onKeyPress={() => navClick('/work/exam-tracking')}
           >
-            Exam Tracking
+            Actuarial Exam Tracking
           </li>
           <li className="secondary-nav-header"
               role="button"

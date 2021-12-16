@@ -54,7 +54,7 @@ function MobileMenu() {
                         <li className="secondary-nav-header"
                             onClick={() => navClick('/work/exam-tracking')}
                         >
-                            Exam Tracking
+                            Actuarial Exam Tracking
                         </li>
                         <li className="secondary-nav-header"
                             onClick={() => navClick('/work/patrs-redesign')}
